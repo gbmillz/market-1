@@ -1,6 +1,6 @@
 # market
 
-> A Vue.js project
+> A Vue.js project  by Owerri Tech Community
 
 ## Build Setup
 

@@ -7,6 +7,19 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCUdvPLAKPPVPC745xAFiUropnkcXkJ-Xs",
+    authDomain: "market-7374f.firebaseapp.com",
+    databaseURL: "https://market-7374f.firebaseio.com",
+    projectId: "market-7374f",
+    storageBucket: "",
+    messagingSenderId: "856990471512"
+  };
+  firebase.initializeApp(config);
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
